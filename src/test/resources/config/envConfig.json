@@ -1,0 +1,15 @@
+{
+  "environments": {
+    "stg": {
+      "logins": {
+        "firstLogin": {
+          "userName": "test_interview@cnh.com",
+          "password": "11223344"
+        }
+      },
+      "siteInfo": {
+        "url": "https://cnh-staging.com/"
+      }
+    }
+  }
+}
