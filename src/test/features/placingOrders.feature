@@ -47,6 +47,8 @@ Feature: Placing An Order
     And "submitButton" is clicked
     And wait for "continueButton" to be appeared
     And "continueButton" is clicked
+    And wait for "orderProduct" to be appeared
+    And "orderProduct" should be displayed
     And wait for "cancelOrderButton" to be appeared
     And "cancelOrderButton" is clicked
     And wait for "yesButton" to be appeared

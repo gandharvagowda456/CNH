@@ -15,7 +15,7 @@ public class LogInPage {
     public By memberNameXpath = By.xpath("(//p[text()='John Doe'])[2]");
     public By nextButton = By.xpath("//button[text()='Next']");
     public By selectLabButton = By.xpath("(//button[text()='Select Lab'])[1]");
-    public By pickTime = By.xpath("//div[text()='11:30 - 12:00']");
+    public By pickTime = By.xpath("//div[text()='12:30 - 13:00']");
     public By placeAndPalButton = By.xpath("//button[text()='Place Order & Pay']");
     public By netBankingOption = By.xpath("(//*[text()='NetBanking'])[2]");
     public By axisBankOption = By.xpath("//*[text()='Axis']");
@@ -25,6 +25,8 @@ public class LogInPage {
     public By submitButtonX = By.xpath("//button[text()='submitButton']");
     public By submitButton = By.id("submitButton");
     public By successMessage = By.xpath("//button[text()='Status Captured successfully']");
+    public By orderProduct = By.xpath("(//*[text()='Kidney Function Test with Electrolytes and Phosphorus'])[2]");
+    public By productValue = By.xpath("(//*[text()='₹449'])[2]");
     public By cancelOrderButton = By.xpath("//button[text()='Cancel Order']");
     public By yesButton = By.xpath("//button[text()='Yes']");
     public By otherOption = By.xpath("//*[text()='Diagnostic Other']");
