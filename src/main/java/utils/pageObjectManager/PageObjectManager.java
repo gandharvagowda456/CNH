@@ -1,4 +1,4 @@
-package utils.pageObjects;
+package utils.pageObjectManager;
 
 
 import pageobjects.LogInPage;

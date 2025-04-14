@@ -11,7 +11,7 @@ import org.testng.Assert;
 import pageobjects.PlaceAnOrderPage;
 import tasks.CommonTask;
 import testdata.TestDatas;
-import utils.pageObjects.PageObjectManager;
+import utils.pageObjectManager.PageObjectManager;
 
 import java.util.List;
 import java.util.Map;
