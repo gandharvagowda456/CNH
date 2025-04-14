@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-04-14T09:31:25.672Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1862908800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.WebDriverSetup.startWebDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Placing an Order",
+        "description": "",
+        "id": "placing-an-order;placing-an-order",
+        "after": [
+          {
+            "result": {
+              "duration": 232887900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.WebDriverSetup.closePageDriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5319625900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the url",
+            "match": {
+              "location": "stepdefs.WebSteps.PlaceAnOrderSteps.user_login_to_the_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "attachImage"
+                ]
+              },
+              {
+                "cells": [
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on \"Login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.WebSteps.PlaceAnOrderSteps.user_should_be_on_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1269911700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"logInButton\" is clicked",
+            "match": {
+              "arguments": [
+                {
+                  "val": "logInButton",
+                  "offset": 1
+                }
+              ],
+              "location": "stepdefs.WebSteps.PlaceAnOrderSteps.element_is_clicked(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189975400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "below details are entered",
+            "match": {
+              "location": "stepdefs.WebSteps.PlaceAnOrderSteps.below_details_are_entered(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "test_interview@cnh.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cnh"
+          }
+        ]
+      }
+    ],
+    "name": "Placing An Order",
+    "description": "",
+    "id": "placing-an-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/placingOrders.feature",
+    "tags": []
+  }
+]
