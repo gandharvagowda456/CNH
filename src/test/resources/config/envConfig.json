@@ -3,12 +3,12 @@
     "stg": {
       "logins": {
         "firstLogin": {
-          "userName": "test_interview@cnh.com",
+          "userName": "user",
           "password": "11223344"
         }
       },
       "siteInfo": {
-        "url": "https://cnh-staging.com/"
+        "url": "https://www.ebay.com/"
       }
     }
   }

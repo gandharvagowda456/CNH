@@ -3,37 +3,14 @@ package pageobjects;
 import org.openqa.selenium.By;
 
 public class LogInPage {
-    public By logInButton = By.xpath("//button[text()='Login']");
-    public By username = By.name("username");
-    public By continueButton = By.xpath("//button[text()='Continue']");
-    public By password = By.name("loginPIN");
-    public By logIn = By.xpath("//button[text()='Login']");
-    public By labTestsServices = By.xpath("//p[text()='Lab Tests']");
-    public By kidneyFunctionTestsButton = By.xpath("//p[text()='Kidney Function Test with Electrolytes and Phosphorus']");
-    public By bookNowButton = By.xpath("//p[text()='Book Now']");
-    public By memberNameRadio = By.name("popupRadioBtnGroup");
-    public By memberNameXpath = By.xpath("(//p[text()='John Doe'])[2]");
-    public By nextButton = By.xpath("//button[text()='Next']");
-    public By selectLabButton = By.xpath("(//button[text()='Select Lab'])[1]");
-    public By pickTime = By.xpath("//div[text()='12:30 - 13:00']");
-    public By placeAndPalButton = By.xpath("//button[text()='Place Order & Pay']");
-    public By netBankingOption = By.xpath("(//*[text()='NetBanking'])[2]");
-    public By axisBankOption = By.xpath("//*[text()='Axis']");
-    public By dropDownSelector = By.xpath("//button[text()='Select Options']");
-    public By dropDownSelID = By.id("txnStateDropdownToggle");
-    public By chargedOption = By.xpath("//*[text()='CHARGED']");
-    public By submitButtonX = By.xpath("//button[text()='submitButton']");
-    public By submitButton = By.id("submitButton");
-    public By successMessage = By.xpath("//button[text()='Status Captured successfully']");
-    public By orderProduct = By.xpath("(//*[text()='Kidney Function Test with Electrolytes and Phosphorus'])[2]");
-    public By productValue = By.xpath("(//*[text()='₹449'])[2]");
-    public By cancelOrderButton = By.xpath("//button[text()='Cancel Order']");
-    public By yesButton = By.xpath("//button[text()='Yes']");
-    public By otherOption = By.xpath("//*[text()='Diagnostic Other']");
-    public By homePageButton = By.xpath("//button[text()='Go to Home Page']");
-    public By profileDropdown = By.xpath("(//p[text()='John Doe'])[1]");
-    public By logOutButton = By.xpath("//*[text()='Logout']");
-
-
-
+    public By ebayLogo = By.xpath("//*[@id='gh-logo']");
+    public By ebaySearch = By.xpath("//*[@id='gh-ac']");
+    public By ebaySearchBtn = By.xpath("//*[@id='gh-search-btn']");
+    public By firstBook = By.xpath("(//*[@id='srp-river-results']//ul[@class='srp-results srp-list clearfix']//li/div/div//a)[1]");
+    public By closePopUP = By.xpath("//*[@aria-label='Close overlay']");
+    public By cartValues = By.xpath("//*[@class='badge gh-badge']");
+    public By cartItem = By.xpath("//*[@class='gh-cart__icon' and @aria-label='Your shopping cart contains 1 items']");
+    public By addToCartBtn = By.xpath("//*[@id='atcBtn_btn_1']");
+    public By popUpAddedCart = By.xpath("//*[text()='Added to cart']");
+  
 }
